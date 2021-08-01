@@ -12,6 +12,8 @@ title.pack()
 notebook = tkinter.ttk.Notebook(root, width=300, height=300, takefocus=True)
 notebook.pack(expand=True)
 
+#How can I make notebook tab size to follow window size? 
+
 frame1 = tkinter.ttk.Frame(notebook, width=400, height=280)
 frame1.pack(expand=True)
 notebook.add(frame1, text="1. 학생 정보 불러오기")
